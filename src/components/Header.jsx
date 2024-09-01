@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.css";
 
 function Header() {
   const NavLink = [
@@ -26,6 +27,14 @@ function Header() {
           ))}
         </ul>
       </nav>
+      <div class="brutalist-card__actions">
+        <a
+          class="brutalist-card__button brutalist-card__button--mark text-white rounded-full"
+          href="#"
+        >
+          Hire Me!
+        </a>
+      </div>
     </div>
   );
 }
