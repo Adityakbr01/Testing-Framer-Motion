@@ -1,0 +1,18 @@
+/* App.css */
+.custom-cursor {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.7);
+    pointer-events: none;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease-out;
+  }
+  
+  /* You can add hover effect for specific elements */
+  .hover-target:hover ~ .custom-cursor {
+    transform: scale(2) translate(-50%, -50%);
+  }
+  

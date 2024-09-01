@@ -1,0 +1,23 @@
+/* Add this CSS to your global styles or a CSS module */
+.marquee-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .marquee-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent, rgba(0, 0, 0, 0.8));
+    pointer-events: none; /* Make sure it does not interfere with mouse events */
+  }
+  /* Add this CSS to your global styles or a CSS module */
+@keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

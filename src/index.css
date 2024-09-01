@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add this in your CSS or import it in your main style file */
+/* @import 'locomotive-scroll/dist/locomotive-scroll.css';
+
+html {
+  scroll-behavior: auto;
+  /* overflow: hidden; */
+html,body{
+  background-color: #0b0b0b;
+}
+
+/* Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Background of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scroll thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scroll thumb on hover */
+}
